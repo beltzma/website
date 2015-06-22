@@ -1,0 +1,8 @@
+_site/
+__pycache__/
+blog/
+*.pyc
+.DS_Store
+.doit.db.db 
+cache/ 
+output/
