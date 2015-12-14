@@ -104,7 +104,9 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "ipython"
+THEME = "bootstrap-jinja"
+#THEME = "ipython"
+#THEME="bootstrap3-gradients-jinja"
 
 # Below this point, everything is optional
 
@@ -165,6 +167,7 @@ TIMEZONE = "CEST"
 POSTS = (
     ("posts/*.ipynb", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
+    ("posts/*.php", "posts", "post.tmpl"),
 
 )
 PAGES = (
@@ -373,6 +376,9 @@ EXTRA_IMAGE_EXTENSIONS = []
 #
 # If set to False, it will sort by filename instead. Defaults to True
 # GALLERY_SORT_BY_DATE = True
+
+IMAGE_FOLDERS = {'images': 'images'}
+IMAGE_THUMBNAIL_SIZE = 400
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
